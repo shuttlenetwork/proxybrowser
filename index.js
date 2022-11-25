@@ -1,1 +1,31 @@
-function _0x288c(_0x1f798f,_0x534900){const _0x48cdf6=_0x48cd();return _0x288c=function(_0x288c8f,_0x3c9dad){_0x288c8f=_0x288c8f-0x16e;let _0xe62537=_0x48cdf6[_0x288c8f];return _0xe62537;},_0x288c(_0x1f798f,_0x534900);}const _0x3683c9=_0x288c;(function(_0xc73f09,_0xdccc83){const _0x2f6f74=_0x288c,_0x2a1552=_0xc73f09();while(!![]){try{const _0xa78701=-parseInt(_0x2f6f74(0x172))/0x1+parseInt(_0x2f6f74(0x177))/0x2*(parseInt(_0x2f6f74(0x18a))/0x3)+parseInt(_0x2f6f74(0x17d))/0x4+-parseInt(_0x2f6f74(0x183))/0x5*(parseInt(_0x2f6f74(0x185))/0x6)+-parseInt(_0x2f6f74(0x176))/0x7+-parseInt(_0x2f6f74(0x189))/0x8+parseInt(_0x2f6f74(0x180))/0x9;if(_0xa78701===_0xdccc83)break;else _0x2a1552['push'](_0x2a1552['shift']());}catch(_0x2f2bd4){_0x2a1552['push'](_0x2a1552['shift']());}}}(_0x48cd,0x53138));const express=require(_0x3683c9(0x17f)),fetch=require('node-fetch'),kuler=require('kuler'),app=express();function _0x48cd(){const _0x4428d8=['https://www.google.com','Content-Type','87208LlsJNF','static','arrayBuffer','set','3081267XzzzFt','2bxePhl','listen','headers','split','log','status','1612220scfdOI','write','express','7708545TfQFpd','get','#00ff00','73740CdSNuH','content-type','186Pkojfr','use','https://github.com/shuttlenetwork/proxybrowser','url','2934432JTBiFv','1296303HzTIZj','end','#00ffdd'];_0x48cd=function(){return _0x4428d8;};return _0x48cd();}app[_0x3683c9(0x186)](_0x3683c9(0x173),express[_0x3683c9(0x173)]('public')),console[_0x3683c9(0x17b)](kuler('Proxying\x20Google\x20',_0x3683c9(0x16f))),app[_0x3683c9(0x181)]('/*',async(_0x1e0c2b,_0x50d481)=>{const _0x2d303e=_0x3683c9,_0x2ce86e=await fetch(_0x2d303e(0x170)+_0x1e0c2b[_0x2d303e(0x188)]),_0x51d6a3=_0x2ce86e[_0x2d303e(0x179)][_0x2d303e(0x181)](_0x2d303e(0x184));_0x50d481[_0x2d303e(0x175)](_0x2d303e(0x171),_0x51d6a3[_0x2d303e(0x17a)](';')[0x0]);const _0x5ddf99=new Buffer['from'](await _0x2ce86e[_0x2d303e(0x174)]());_0x50d481[_0x2d303e(0x17c)](_0x2ce86e[_0x2d303e(0x17c)]),_0x50d481[_0x2d303e(0x17e)](_0x5ddf99),_0x50d481[_0x2d303e(0x16e)]();}),app[_0x3683c9(0x178)](0xbb8,()=>{const _0x559a0f=_0x3683c9;console[_0x559a0f(0x17b)]('┌─┐┬\x20┬┬\x20┬┌┬┐┌┬┐┬\x20\x20┌─┐\x0a└─┐├─┤│\x20│\x20│\x20\x20│\x20│\x20\x20├┤\x20\x0a└─┘┴\x20┴└─┘\x20┴\x20\x20┴\x20┴─┘└─┘'),console[_0x559a0f(0x17b)](kuler(_0x559a0f(0x187),_0x559a0f(0x182)));});
+const express = require("express");
+const fetch = require("node-fetch"); // How we are actually proxying the assets
+const kuler = require("kuler"); // Console colors
+const app = express();
+
+const proxyUrl = "google.com";
+console.log(kuler("Proxying the domain: " + proxyUrl, "#00ffdd"));
+app.get("/*", async (req, res) => {
+  const proxied = await fetch("https://" + proxyUrl + req.url); // Get the asset from the website
+  const mime = proxied.headers.get("content-type"); // Send the correct MIME type so the browser knows what it is
+  res.set("Content-Type", mime.split(";")[0]); // Setting the MIME type
+  const body = new Buffer.from(await proxied.arrayBuffer()); // Get the buffer of the asset
+  res.status(proxied.status); // Send the correct HTTP Response back
+  res.write(body); // Write the buffered asset to the response
+  res.end();
+});
+
+// Here we start the proxy
+app.listen(3000, () => {
+  console.log(`
+██████╗ ██╗   ██╗███████╗███████╗██╗   ██╗
+██╔══██╗██║   ██║██╔════╝██╔════╝╚██╗ ██╔╝
+██████╔╝██║   ██║█████╗  █████╗   ╚████╔╝ 
+██╔══██╗██║   ██║██╔══╝  ██╔══╝    ╚██╔╝  
+██████╔╝╚██████╔╝██║     ██║        ██║   
+╚═════╝  ╚═════╝ ╚═╝     ╚═╝        ╚═╝   
+https://github.com/retronbv/buffy
+`)
+  console.log(kuler("Server has been started! Listening on port 3000", "#00ff00"));
+  console.log("Link to view: " + kuler(`https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`, "#0000ff"));
+});
