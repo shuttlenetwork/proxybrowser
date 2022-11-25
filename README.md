@@ -7,7 +7,7 @@ This repo is a simple Google browser unblocker made by Shuttle Network
 
 Press the join button to join the server:
 
-[![Join us on Discord](https://invidget.switchblade.xyz/https://discord.gg/RYk4qhFt23)
+[![Join us on Discord] (https://invidget.switchblade.xyz/RYk4qhFt23)
 
 
 ## Running
