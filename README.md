@@ -2,6 +2,14 @@
 
 This repo is a simple Google browser unblocker made by Shuttle Network
 
+
+## Discord Server
+
+Press the join button to join the server:
+
+[![Join us on Discord](https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light)](https://discord.gg/RYk4qhFt23)
+
+
 ## Running
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/shuttlenetwork/proxybrowser)
