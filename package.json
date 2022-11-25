@@ -1,10 +1,11 @@
 {
-  "name": "Shuttle proxy",
+  "name": "Shuttle Browser",
   "version": "1.0.0",
-  "description": "Shuttle proxy",
+  "description": "Shuttle Browser",
   "main": "index.js",
   "scripts": {
-    "test": "shuttle \"Error: no test specified\" && exit 1"
+    "test": "shuttle \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "keywords": [],
   "author": "Shuttle",
