@@ -1,0 +1,18 @@
+{
+  "name": "Shuttle proxy",
+  "version": "1.0.0",
+  "description": "Shuttle proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "shuttle \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shuttle",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "kuler": "^2.0.0"
+  }
+}
