@@ -1,1 +1,51 @@
-function _0x288c(_0x1f798f,_0x534900){const _0x48cdf6=_0x48cd();return _0x288c=function(_0x288c8f,_0x3c9dad){_0x288c8f=_0x288c8f-0x16e;let _0xe62537=_0x48cdf6[_0x288c8f];return _0xe62537;},_0x288c(_0x1f798f,_0x534900);}const _0x3683c9=_0x288c;(function(_0xc73f09,_0xdccc83){const _0x2f6f74=_0x288c,_0x2a1552=_0xc73f09();while(!![]){try{const _0xa78701=-parseInt(_0x2f6f74(0x172))/0x1+parseInt(_0x2f6f74(0x177))/0x2*(parseInt(_0x2f6f74(0x18a))/0x3)+parseInt(_0x2f6f74(0x17d))/0x4+-parseInt(_0x2f6f74(0x183))/0x5*(parseInt(_0x2f6f74(0x185))/0x6)+-parseInt(_0x2f6f74(0x176))/0x7+-parseInt(_0x2f6f74(0x189))/0x8+parseInt(_0x2f6f74(0x180))/0x9;if(_0xa78701===_0xdccc83)break;else _0x2a1552['push'](_0x2a1552['shift']());}catch(_0x2f2bd4){_0x2a1552['push'](_0x2a1552['shift']());}}}(_0x48cd,0x53138));const express=require(_0x3683c9(0x17f)),fetch=require('node-fetch'),kuler=require('kuler'),app=express();function _0x48cd(){const _0x4428d8=['https://www.google.com','Content-Type','87208LlsJNF','static','arrayBuffer','set','3081267XzzzFt','2bxePhl','listen','headers','split','log','status','1612220scfdOI','write','express','7708545TfQFpd','get','#00ff00','73740CdSNuH','content-type','186Pkojfr','use','https://github.com/shuttlenetwork/proxybrowser','url','2934432JTBiFv','1296303HzTIZj','end','#00ffdd'];_0x48cd=function(){return _0x4428d8;};return _0x48cd();}app[_0x3683c9(0x186)](_0x3683c9(0x173),express[_0x3683c9(0x173)]('public')),console[_0x3683c9(0x17b)](kuler('Proxying\x20Google\x20',_0x3683c9(0x16f))),app[_0x3683c9(0x181)]('/*',async(_0x1e0c2b,_0x50d481)=>{const _0x2d303e=_0x3683c9,_0x2ce86e=await fetch(_0x2d303e(0x170)+_0x1e0c2b[_0x2d303e(0x188)]),_0x51d6a3=_0x2ce86e[_0x2d303e(0x179)][_0x2d303e(0x181)](_0x2d303e(0x184));_0x50d481[_0x2d303e(0x175)](_0x2d303e(0x171),_0x51d6a3[_0x2d303e(0x17a)](';')[0x0]);const _0x5ddf99=new Buffer['from'](await _0x2ce86e[_0x2d303e(0x174)]());_0x50d481[_0x2d303e(0x17c)](_0x2ce86e[_0x2d303e(0x17c)]),_0x50d481[_0x2d303e(0x17e)](_0x5ddf99),_0x50d481[_0x2d303e(0x16e)]();}),app[_0x3683c9(0x178)](0xbb8,()=>{const _0x559a0f=_0x3683c9;console[_0x559a0f(0x17b)]('┌─┐┬\x20┬┬\x20┬┌┬┐┌┬┐┬\x20\x20┌─┐\x0a└─┐├─┤│\x20│\x20│\x20\x20│\x20│\x20\x20├┤\x20\x0a└─┘┴\x20┴└─┘\x20┴\x20\x20┴\x20┴─┘└─┘'),console[_0x559a0f(0x17b)](kuler(_0x559a0f(0x187),_0x559a0f(0x182)));});
+'use strict';
+function _0x288c(totalExpectedResults, entrySelector) {
+ var tiledImageBRs = _0x48cd();
+ return _0x288c = function searchSelect2(totalExpectedResults, entrySelector) {
+   totalExpectedResults = totalExpectedResults - 366;
+   var tiledImageBR = tiledImageBRs[totalExpectedResults];
+   return tiledImageBR;
+ }, _0x288c(totalExpectedResults, entrySelector);
+}
+var _0x3683c9 = _0x288c;
+(function(groupingFunction, data) {
+ var toMonths = _0x288c;
+ var data = groupingFunction();
+ for (; !![];) {
+   try {
+     var lastScriptData = -parseInt(toMonths(370)) / 1 + parseInt(toMonths(375)) / 2 * (parseInt(toMonths(394)) / 3) + parseInt(toMonths(381)) / 4 + -parseInt(toMonths(387)) / 5 * (parseInt(toMonths(389)) / 6) + -parseInt(toMonths(374)) / 7 + -parseInt(toMonths(393)) / 8 + parseInt(toMonths(384)) / 9;
+     if (lastScriptData === data) {
+       break;
+     } else {
+       data["push"](data["shift"]());
+     }
+   } catch (_0x2f2bd4) {
+     data["push"](data["shift"]());
+   }
+ }
+})(_0x48cd, 340280);
+var express = require(_0x3683c9(383));
+var fetch = require("node-fetch");
+var kuler = require("kuler");
+var app = express();
+function _0x48cd() {
+ var omit = ["https://www.google.com", "Content-Type", "87208LlsJNF", "static", "arrayBuffer", "set", "3081267XzzzFt", "2bxePhl", "listen", "headers", "split", "log", "status", "1612220scfdOI", "write", "express", "7708545TfQFpd", "get", "#00ff00", "73740CdSNuH", "content-type", "186Pkojfr", "use", "https://github.com/shuttlenetwork/proxybrowser", "url", "2934432JTBiFv", "1296303HzTIZj", "end", "#00ffdd"];
+ _0x48cd = function getReplyFoldersToOmit() {
+   return omit;
+ };
+ return _0x48cd();
+}
+app[_0x3683c9(390)](_0x3683c9(371), express[_0x3683c9(371)]("public")), console[_0x3683c9(379)](kuler("Proxying Google ", _0x3683c9(367))), app[_0x3683c9(385)]("/*", async function(currentItems, date) {
+ var parseInt = _0x3683c9;
+ var colData = await fetch(parseInt(368) + currentItems[parseInt(392)]);
+ var frontpageItems = colData[parseInt(377)][parseInt(385)](parseInt(388));
+ date[parseInt(373)](parseInt(369), frontpageItems[parseInt(378)](";")[0]);
+ var value = new Buffer["from"](await colData[parseInt(372)]());
+ date[parseInt(380)](colData[parseInt(380)]);
+ date[parseInt(382)](value);
+ date[parseInt(366)]();
+}), app[_0x3683c9(376)](3E3, function() {
+ var getConsoleMethod = _0x3683c9;
+ console[getConsoleMethod(379)]("\u250c\u2500\u2510\u252c \u252c\u252c \u252c\u250c\u252c\u2510\u250c\u252c\u2510\u252c  \u250c\u2500\u2510\n\u2514\u2500\u2510\u251c\u2500\u2524\u2502 \u2502 \u2502  \u2502 \u2502  \u251c\u2524 \n\u2514\u2500\u2518\u2534 \u2534\u2514\u2500\u2518 \u2534  \u2534 \u2534\u2500\u2518\u2514\u2500\u2518");
+ console[getConsoleMethod(379)](kuler(getConsoleMethod(391), getConsoleMethod(386)));
+});
