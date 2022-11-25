@@ -14,17 +14,10 @@ Press the join button to join the server:
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/shuttlenetwork/proxybrowser)
 
-Running this is really easy!
+This is super easy to run!
 
-To run on replit:
-  1. Click on the button above to clone the repo.
-  2. Click on the green Run button
-  3. That's it!
+How to run on replit:
+1. Click the Run on replit button above
+2. Click the green run button
+3. Done!
 
-To run locally:
-  1. Download Git, Node, and NPM
-  2. Run `git clone http://github.com/shuttlenetwork/proxybrowser.git` in Git Bash or command prompt
-  3. Run `cd proxybrowser && npm install` to go into the directory and install all things necessary
-  4. To start it, run `node .` and you're done!
-
-It is really just that simple!
